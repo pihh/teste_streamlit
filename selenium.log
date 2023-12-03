@@ -1,0 +1,87 @@
+[1701606246.449][INFO]: Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 41289
+[1701606246.449][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1701606246.947][INFO]: [3ac313ba1c67b498a3c71e8b3012179a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "browserVersion": null,
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--disable-features=NetworkService", "--window-size=1920x1080", "--disable-features=VizDisplayCompositor" ],
+            "binary": "/home/vscode/.cache/selenium/chrome/linux64/119.0.6045.105/chrome",
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1701606246.948][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1701606246.948][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1701606246.948][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1701606246.948][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1701606246.949][INFO]: Launching chrome: /home/vscode/.cache/selenium/chrome/linux64/119.0.6045.105/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-features=NetworkService,VizDisplayCompositor --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.XSj5UN --window-size=1920x1080 data:,
+[1701606247.006][INFO]: [3ac313ba1c67b498a3c71e8b3012179a] RESPONSE InitSession ERROR session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /home/vscode/.cache/selenium/chrome/linux64/119.0.6045.105/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
